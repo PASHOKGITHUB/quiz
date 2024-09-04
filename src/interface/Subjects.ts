@@ -5,5 +5,4 @@ export interface Subject {
     subjectTitle: string;
     category: string;
     bannerUrl?: string; // URL of the uploaded banner image
-  }
-  
+}

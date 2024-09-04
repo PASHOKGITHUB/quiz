@@ -21,7 +21,7 @@ const Sidebar = () => {
 
   return (
     <div className="h-screen p-6 w-64 bg-gray-100">
-      <div className="text-lg font-bold mb-8">Logo</div>
+      {/* <div className="text-lg font-bold mb-8">Logo</div> */}
       <ul className="space-y-4">
         {menuItems.map((item) => (
           <li

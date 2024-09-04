@@ -1,4 +1,4 @@
-import Navbar from "@/components/Dashboard/Navbar";
+import Navbar from "@/components/Teachers/Dashboard/Navbar";
 import Sidebar from "@/components/Teachers/Sidebar";
 
 const Dashboard = () => {

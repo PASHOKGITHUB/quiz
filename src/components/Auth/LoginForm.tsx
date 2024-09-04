@@ -72,7 +72,7 @@ const LoginForm = () => {
       </Button>
       <div className="text-center">
       <Link href="/signup" legacyBehavior>
-        <a className="text-blue-500 hover:underline">Don't have an account? Sign up here</a>
+        <a className="text-blue-500 hover:underline">Don&apos;t have an account? Sign up here</a>
       </Link>
 
         </div>

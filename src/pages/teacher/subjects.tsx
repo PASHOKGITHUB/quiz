@@ -4,12 +4,12 @@ import SubjectGrid from "@/components/Teachers/Subject/SubjectGrid";
 
 const SubjectsPage = () => {
   return (
-    <div className="flex h-screen">
-      <Sidebar />
-      <div className="flex-1 flex flex-col">
-        <Header />
+    <div className="flex-1 h-screen">
+      <Header />     
+      <div className=" flex flex-col-2">
+        <Sidebar />
         <main className="p-6 flex-grow overflow-auto">
-          <h1 className="text-2xl font-semibold mb-4">Subjects</h1>
+          {/* <h1 className="text-2xl font-semibold mb-4">Subjects</h1> */}
           <SubjectGrid />
         </main>
       </div>
@@ -18,3 +18,5 @@ const SubjectsPage = () => {
 };
 
 export default SubjectsPage;
+
+

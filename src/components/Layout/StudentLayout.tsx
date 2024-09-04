@@ -1,22 +1,22 @@
-import { useAuth } from "@/context/AuthContext";
-import { useEffect, useState } from "react";
+// import { useAuth } from "@/context/AuthContext";
+// import { useEffect, useState } from "react";
 
-const AdminLayout = ({ children }: { children: React.ReactNode }) => {
-  const { currentUser } = useAuth();
-  const [role, setRole] = useState<string | null>(null);
+// const AdminLayout = ({ children }: { children: React.ReactNode }) => {
+//   const { currentUser } = useAuth();
+//   const [role, setRole] = useState<string | null>(null);
 
-  useEffect(() => {
-    const userRole = sessionStorage.getItem("role");
-    if (userRole) {
-      setRole(userRole);
-    }
-  }, [currentUser]);
+//   useEffect(() => {
+//     const userRole = sessionStorage.getItem("role");
+//     if (userRole) {
+//       setRole(userRole);
+//     }
+//   }, [currentUser]);
 
-  if (role !== "student") {
-    return <div>Access Denied</div>;
-  }
+//   if (role !== "student") {
+//     return <div>Access Denied</div>;
+//   }
 
-  return <div>{children}</div>;
-};
+//   return <div>{children}</div>;
+// };
 
-export default AdminLayout;
+// export default AdminLayout;
